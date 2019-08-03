@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rk"
+    tools:context=".AC_1">
+
+    <Switch
+        android:id="@+id/sw1_id"
+        android:layout_width="123dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:text="Switch It" />
+
+    <Button
+        android:id="@+id/bt1_id"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Open"
+        android:textColor="@android:color/black"
+        android:visibility="invisible" />
+
+</RelativeLayout>
